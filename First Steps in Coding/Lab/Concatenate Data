@@ -1,0 +1,18 @@
+using System;
+
+namespace ConsoleApp15
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = Console.ReadLine();
+            string Threename = Console.ReadLine();
+            int age = int.Parse(Console.ReadLine());
+            string city = Console.ReadLine();
+            Console.WriteLine("You are {0} {1}, a {2}-years old person from {3}."
+                , name, Threename, age, city);
+           
+        }
+    }
+}
