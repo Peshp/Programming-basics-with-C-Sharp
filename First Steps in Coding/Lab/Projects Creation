@@ -1,0 +1,16 @@
+using System;
+
+namespace ConsoleApp15
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = Console.ReadLine();
+            int Projects = int.Parse(Console.ReadLine());
+            var timeForProjects = Projects * 3;
+            Console.WriteLine("The architect {0} will need {1}" +
+                " hours to complete {2} project/s.", name, timeForProjects, Projects);
+        }
+    }
+}
