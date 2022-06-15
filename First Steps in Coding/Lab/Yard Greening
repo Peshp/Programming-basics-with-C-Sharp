@@ -1,0 +1,19 @@
+using System;
+
+namespace ConsoleApp15
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double Yard = double.Parse(Console.ReadLine());
+            var price = (Yard * 7.61);
+            var promotion = price * 0.18;
+            var finalPrice = price - promotion;
+            Console.WriteLine("the final price is: {0}", finalPrice);
+            Console.WriteLine("the discount is: {0}", promotion);
+
+
+        }
+    }
+}
