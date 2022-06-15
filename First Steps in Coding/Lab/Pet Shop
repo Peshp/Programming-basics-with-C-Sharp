@@ -1,1 +1,17 @@
 
+using System;
+
+namespace ConsoleApp15
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int dogsFood = int.Parse(Console.ReadLine());
+            int catsFood = int.Parse(Console.ReadLine());
+            var price = (dogsFood * 2.50) + (catsFood * 4);
+            Console.WriteLine("{0} lv.", price);
+
+        }
+    }
+}
