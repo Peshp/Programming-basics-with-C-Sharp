@@ -1,0 +1,17 @@
+using System;
+
+namespace C2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int letters = int.Parse(Console.ReadLine());
+            int ReadLettersFor1h = int.Parse(Console.ReadLine());
+            int days = int.Parse(Console.ReadLine());
+            var final = letters / ReadLettersFor1h;
+            var time = final / days;
+            Console.WriteLine(time);
+        }
+    }
+}
