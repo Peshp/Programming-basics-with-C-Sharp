@@ -1,1 +1,0 @@
-Write a program that reads the angle in radians (decimal number) and converts it to degrees. Use the formula: degree = radian * 180 / π.
