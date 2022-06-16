@@ -1,0 +1,14 @@
+using System;
+
+namespace C2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double radian = double.Parse(Console.ReadLine());
+            var grade = radian * 180 / Math.PI;
+            Console.WriteLine(grade);
+        }
+    }
+}
