@@ -13,4 +13,4 @@ namespace C2
             Console.WriteLine(sum);
         }
     }
-
+}
