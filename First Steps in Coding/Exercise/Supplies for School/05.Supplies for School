@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>T04._List_Operations</RootNamespace>
+    <RootNamespace>05._Supplies_for_School</RootNamespace>
   </PropertyGroup>
 
 </Project>
