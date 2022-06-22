@@ -1,1 +1,17 @@
 
+using System;
+
+namespace C10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double rating = double.Parse(Console.ReadLine());
+            if(rating >= 5.50)
+            {
+                Console.WriteLine("Excellent!");
+            }
+        }
+    }
+}
