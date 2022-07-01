@@ -1,52 +1,73 @@
-﻿using System;
+using System;
 
-namespace C35
+namespace C36
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double budjet = double.Parse(Console.ReadLine());
-            string season = Console.ReadLine();
-            double Price = 0;
+            double N1 = double.Parse(Console.ReadLine());
+            double N2 = double.Parse(Console.ReadLine());
+            string symbol = Console.ReadLine();
+            double all = 0;
 
-            if(budjet <= 100)
+            switch (symbol)
             {
-                switch (season)
-                {
-                    case "summer":
-                        Price = budjet * 0.3;
-                        Console.WriteLine("Somewhere in Bulgaria");
-                        Console.WriteLine($"Camp – {Price:f2}");
-                        break;
-                    case "winter":
-                        Price = budjet * 0.7;
-                        Console.WriteLine("Somewhere in Bulgaria");
-                        Console.WriteLine($"Hotel – {Price:f2}");
-                        break;
-                }              
-            }
-            else if((budjet <= 1000) && (budjet > 100))
-            {
-                switch (season)
-                {
-                    case "summer":
-                        Price = budjet * 0.4;
-                        Console.WriteLine("Somewhere in Balkans");
-                        Console.WriteLine($"Camp – {Price:f2}");
-                        break;
-                    case "winter":
-                        Price = budjet * 0.8;
-                        Console.WriteLine("Somewhere in Balkans");
-                        Console.WriteLine($"Hotel – {Price:f2}");
-                        break;
-                }
-            }           
-            else
-            {
-                Price = budjet * 0.9;
-                Console.WriteLine("Somewhere in Europe");
-                Console.WriteLine($"Hotel - {Price:f2}");
+                case "+":
+                    all = N1 + N2;
+                    if(all % 2 == 0)
+                    {
+                        Console.WriteLine($"{N1} + {N2} = {all} - even");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{N1} + {N2} = {all} - odd");
+                    }
+                    break;
+                case "-":
+                    all = N1 - N2;
+                    if (all % 2 == 0)
+                    {
+                        Console.WriteLine($"{N1} - {N2} = {all} - even");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{N1} - {N2} = {all} - odd");
+                    }
+                    break;
+                case "*":
+                    all = N1 * N2;
+                    if (all % 2 == 0)
+                    {
+                        Console.WriteLine($"{N1} * {N2} = {all} - even");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{N1} * {N2} = {all} - odd");
+                    }
+                    break;
+                case "/":
+                    all = N1 / N2;
+                    if(N2 != 0)
+                    {
+                        Console.WriteLine($"{N1} / {N2} = {all:f2}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Cannot divide {N1} by zero");
+                    }
+                    break;
+                case "%":
+                    all = N1 % N2;
+                    if (N2 != 0)
+                    {
+                        Console.WriteLine($"{N1} % {N2} = {all}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Cannot divide {N1} by zero");
+                    }
+                    break;
             }
         }
     }
