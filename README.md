@@ -22,5 +22,6 @@ In the Programming basics with C# course, we work with Visual Studio and look at
 - This is the last lecture in the Programming basics with C# course, which aims to show us how to work with nested for and while loops.
 
 Programming basics With C# certificate:
+![Programming Basics - March 2022 - Certificate](https://user-images.githubusercontent.com/98225837/183069528-6cc996e6-bc22-4ec9-805d-73a80c930601.jpeg)
 
-[Programming Basics - March 2022 - Certificate.pdf](https://github.com/Peshp/Programming-basics-with-C-/files/9268167/Programming.Basics.-.March.2022.-.Certificate.pdf)
+
