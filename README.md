@@ -9,6 +9,7 @@ In the Programming basics with C# course, we work with Visual Studio and look at
 - This is the second lecture that aims to show us how to work with if-else conditionals.
 
 3. Conditional Statements Advanced
+
 = This lecture shows us how to work with nested if-else conditionals and switch-case conditionals.
 
 4. For Loop
